@@ -17,7 +17,7 @@ namespace Calculadora.Clases
                 {
                     if (!string.IsNullOrEmpty(num1[i]))
                     {
-                        if (dividir > 1)
+                        if (dividir > 0)
                             dividir = dividir / Convert.ToDecimal(num1[i]);
                         else
                             dividir = Convert.ToDecimal(num1[i]);
